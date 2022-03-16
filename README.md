@@ -7,7 +7,7 @@
 3. Numpy,pandas,scikit-learn and joblib libraries
 4. Flask server
 
-  In this project Iris dataset was choosen to build the model by using logistic regression. Here Joblib library was used to export the model from python notebook and import that file to flask code. Virtual environment to run the flask
+  In this project Iris dataset was choosen to build the model by using logistic regression. Here Joblib library was used to export(dump) the model from python notebook and import(load) that file to flask code.Need to create Virtual environment to run the flask
 #### Why do we need virtual environment
   For example, you are working on project A which requires Python’s library A(site package) version 1.0 while another project B requires the same library A but newer version 1.3. In such situations, a virtual environment can be really useful to maintain the dependencies of both projects.
   
