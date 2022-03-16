@@ -15,11 +15,12 @@
   
   1. Choose a seperate folder where flask server will run for the project.
   2. Go to command prompt -> change directory to that folder where flask will run
-  3. create a virtual environment for the folder by using following command 'python -m venv <name of environment>'
-  4. Activate the environment by using following command '<name of environment>\Scripts\activate'
-  5. Now Install flask by using following command 'pip install flask' (Flask will be installed for that environment)
-  6. Write the code in python file by initialising flask
-  7. Now use the command to set the flask app with python file 'set FLASK_APP=app.py'
-  8. Type the command "flask run". If there are any errors in the code error will be displayed or server will start and give us following url to check the output- http://127.0.0.1:5000/
-  9. click or copy paste the url in the browser by using following path which was declared in python file . In my code i have given my function declaration as '/home' so i will use following url 'http://127.0.0.1:5000/home'.
-  10. check the output by giving values in html page.
+  3. Install Virtual environment "pip install virtualenv"
+  4. create a virtual environment for the folder by using following command 'python -m venv <name of environment>'
+  5. Activate the environment by using following command '<name of environment>\Scripts\activate'
+  6. Now Install flask by using following command 'pip install flask' (Flask will be installed for that environment)
+  7. Write the code in python file by initialising flask
+  8. Now use the command to set the flask app with python file 'set FLASK_APP=app.py'
+  9. Type the command "flask run". If there are any errors in the code error will be displayed or server will start and give us following url to check the output- http://127.0.0.1:5000/
+  10. click or copy paste the url in the browser by using following path which was declared in python file . In my code i have given my function declaration as '/home' so i will use following url 'http://127.0.0.1:5000/home'.
+  11. check the output by giving values in html page.
